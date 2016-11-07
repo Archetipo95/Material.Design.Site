@@ -1,4 +1,17 @@
 
+
+body {
+  padding-top: 100px;
+}
+
 .margin-logo {
   margin-left: 1%;
+}
+
+.nav-fixed {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  margin-bottom: 0px;
 }
