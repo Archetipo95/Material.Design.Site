@@ -42,7 +42,43 @@ body {
     animation-duration: 3s;
 }
 
-@keyframes compari {
+@-webkit-keyframes compari {
+    0% {
+        opacity: 0;
+    }
+    80% {
+      opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes compari {
+    0% {
+        opacity: 0;
+    }
+    80% {
+      opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes compari {
+    0% {
+        opacity: 0;
+    }
+    80% {
+      opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes compari {
     0% {
         opacity: 0;
     }
