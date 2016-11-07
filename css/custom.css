@@ -38,6 +38,7 @@ body {
 }
 
 .fade {
+  display: block;
     animation: compari;
     animation-duration: 3s;
 }
