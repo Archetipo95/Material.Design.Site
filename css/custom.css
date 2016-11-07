@@ -39,9 +39,8 @@ body {
 
 .fade {
   display: block;
-    animation: compari;
-    animation-duration: 3s;
-}
+    animation: compari 4s;
+  }
 
 @-webkit-keyframes compari {
     0% {
