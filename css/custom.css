@@ -1,17 +1,62 @@
-
-
 body {
-  padding-top: 100px;
+    padding-top: 100px;
 }
 
 .margin-logo {
-  margin-left: 1%;
+    margin-left: 1%;
 }
 
 .nav-fixed {
-  position: fixed;
-  right: 0;
-  left: 0;
-  top: 0;
-  margin-bottom: 0px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    margin-bottom: 0px;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1000px) {
+    .toast {
+        width: 100%;
+        border-radius: 0;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .toast {
+        visibility: hidden;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1260px) {
+    #toast-container {
+        min-width: 100%;
+        bottom: 0%;
+        top: 90%;
+        right: 0%;
+        left: 0%;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track {
+    width: 0px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #1976d2;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-button {
+    height: 0px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: transparent;
 }
