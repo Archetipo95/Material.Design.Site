@@ -14,3 +14,10 @@
 $(document).ready(function () {
     Materialize.toast('Swipe right to open menu', 2000);
 });
+
+var options = [
+    {selector: '#image-test', offset: 1000, callback: function(el) {
+      Materialize.fadeInImage($(el));
+    } }
+  ];
+  Materialize.scrollFire(options);

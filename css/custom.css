@@ -1,5 +1,10 @@
 body {
     padding-top: 100px;
+    background-color: #fff;
+}
+
+.card-panel {
+  background-color: #fff;
 }
 
 .margin-logo {
@@ -40,7 +45,7 @@ body {
 
 .fade {
   display: block;
-    animation: compari 4s;
+    animation: compari 3s;
   }
 
 @-webkit-keyframes compari {
