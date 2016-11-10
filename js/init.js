@@ -13,6 +13,8 @@
 
 $(document).ready(function () {
     Materialize.toast('Swipe right to open menu', 2000);
+    setInterval(function(){document.getElementById("toast-container").style.display = 'none';},2000);
+
 });
 
 var options = [
