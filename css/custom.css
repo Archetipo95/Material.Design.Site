@@ -3,6 +3,11 @@ body {
     background-color: #fff;
 }
 
+.email {
+  text-decoration: underline;
+  color: #fff;
+}
+
 .card-panel {
   background-color: #fff;
 }
@@ -18,6 +23,10 @@ body {
     top: 0;
     margin-bottom: 0px;
     z-index: 900;
+}
+
+.no-margin-top {
+  margin-top: 0px !important;
 }
 
 @media only screen and (min-width: 601px) and (max-width: 1000px) {
