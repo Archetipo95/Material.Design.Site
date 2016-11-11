@@ -23,3 +23,8 @@ var options = [
     } }
   ];
   Materialize.scrollFire(options);
+
+  AOS.init({
+				easing: 'ease-out-back',
+				duration: 1000
+			});

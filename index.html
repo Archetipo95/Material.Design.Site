@@ -24,6 +24,11 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen" />
+    <!--<link type="text/css" rel="stylesheet" href="css/animate.css" media="screen" />-->
+    <link href="css/aos.css" rel="stylsheet">
+
+
+
     <link type="text/css" rel="stylesheet" href="css/custom.css" media="screen" />
 
 </head>
@@ -81,8 +86,11 @@
     </header>
 
     <main>
+      <div data-aos="zoom-in">
+
+
         <div class="center">
-            <img class="responsive-img hoverable" src="images/wine_cellar02.jpg" alt="cellar">
+            <img class="responsive-img hoverable" data-aos="zoom-in" src="images/wine_cellar02.jpg" alt="cellar"
         </div>
         <div class="section no-pad" id="index-banner">
             <div class="container">
@@ -99,7 +107,7 @@
 
             <div class="row">
                 <div class="col m6 s12 center">
-                    <div class="card-panel hoverable grey lighten-5">
+                    <div class="card-panel hoverable grey lighten-5 animated bounceInLeft">
                         <i class="large material-icons pink-text text-accent-4">cloud</i>
                         <h4>Ciao prova</h4>
                         <p>
@@ -107,7 +115,7 @@
                     </div>
                 </div>
                 <div class="col m6 s12 center">
-                    <div class="card-panel hoverable grey lighten-5">
+                    <div class="card-panel hoverable grey lighten-5 animated bounceInRight">
                         <i class="large material-icons pink-text text-accent-4">cloud</i>
                         <h4>Ciao prova</h4>
                         <p>
@@ -155,7 +163,7 @@
 
             <div class="row">
                 <div class="col s12 m6 ">
-                    <div class="hoverable card-panel grey lighten-5 z-depth-1">
+                    <div class="hoverable card-panel grey lighten-5 z-depth-1 animated pulse infinite">
                         <h5 class="pink-text text-darken-4 bold">Tizio Caio</h5>
                         <div class="row valign-wrapper">
                             <div class="col s3">
@@ -220,7 +228,6 @@
                 <i class="material-icons">mail</i>
             </a>
             <ul class="no-margin-top">
-
                 <li class="no-margin-top">
                     <div class="card no-margin-top pink accent-4">
                         <div class="card-content"><a class="email" href="mailto:martin.masevski@gmail.com">martin.masevski@gmail.com</a></div>
@@ -257,10 +264,13 @@
         </div>
     </footer>
 
+
     <!--Import jQuery before materialize.js-->
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="js/aos.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script src="js/init.js"></script>
+
 </body>
 
 </html>
