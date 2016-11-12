@@ -12,14 +12,7 @@
 })(jQuery); // end of jQuery name space
 
 $(document).ready(function () {
-    Materialize.toast('Swipe right to open menu', 2000);
-    setInterval(function(){document.getElementById("toast-container").style.display = 'none';},2000);
+    Materialize.toast('Swipe right to open menu', 2500);
+    setInterval(function(){document.getElementById("toast-container").style.display = 'none';},2600);
 
 });
-
-var options = [
-    {selector: '#image-test', offset: 1000, callback: function(el) {
-      Materialize.fadeInImage($(el));
-    } }
-  ];
-  Materialize.scrollFire(options);

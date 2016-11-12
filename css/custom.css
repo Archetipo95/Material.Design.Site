@@ -46,15 +46,17 @@ body {
     #toast-container {
         min-width: 100%;
         bottom: 0%;
-        top: 75%;
+        top: 90%;
         right: 0%;
         left: 0%;
     }
 }
 
-.Myfade {
-  display: block;
-    animation: compari 3s;
+  .Myfade {
+
+    -webkit-animation-delay: 3s;
+    -moz-animation-delay: 3s;
+    -ms-animation-delay: 3s;
   }
 
 @-webkit-keyframes compari {
