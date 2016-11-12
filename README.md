@@ -1,4 +1,10 @@
-AOS: https://github.com/michalsnik/aos
+# Material.Design.Site
+Site: https://archetipo95.github.io/Material.Design.Site/
+
+Thanks to:
+
+* Materialize: https://github.com/Dogfalo/materialize
+* AOS: https://github.com/michalsnik/aos
 * Animate.css: https://github.com/daneden/animate.css
 
 This is just an example of a hypothetical site for a company that wants to advertise their products (in this case wines & co.).
