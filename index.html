@@ -21,11 +21,11 @@
     <title>Title's website</title>
 
     <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen" />
     <!--<link type="text/css" rel="stylesheet" href="css/animate.css" media="screen" />-->
-    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="css/aos.css" media="screen" />
 
 
 
@@ -86,18 +86,22 @@
     </header>
 
     <main>
-
         <div class="center">
-            <img class="responsive-img hoverable" data-aos="zoom-out" data-aos-once="true" src="images/wine_cellar02.jpg" alt="cellar" </div>
-            <div class="section no-pad" id="index-banner">
-                <div class="container">
-                    <h1 class="header no-pad center pink-text text-darken-3">Benvenuto nel nostro sito!</h1>
-                    <div class="row center">
-                        <h5 class="header center col s12 light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</h5>
-                    </div>
+
+
+            <div data-aos="zoom-out" data-aos-once="true">
+                <img class="responsive-img hoverable" src="images/wine_cellar02.jpg" alt="cellar">
+            </div>
+        </div>
+        <div class="section no-pad center" id="index-banner">
+            <div class="container">
+                <h1 class="header no-pad center pink-text text-darken-3">Benvenuto nel nostro sito!</h1>
+                <div class="row center">
+                    <h5 class="header center col s12 light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</h5>
                 </div>
             </div>
         </div>
+
 
         <div class="container">
             <div class="row">
@@ -118,6 +122,9 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div class="container">
 
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
             in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing
@@ -154,6 +161,9 @@
             exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
             officia deserunt mollit anim id est laborum.
 
+        </div>
+
+        <div class="container">
             <h2 class="header no-pad center pink-text text-darken-3">Cosa dicono i nostri clienti</h2>
 
             <div class="row">
@@ -214,9 +224,11 @@
                     </div>
                 </div>
             </div>
+        </div>
     </main>
 
-    <div class="fade">
+    <!-- BOTTONE MAIL -->
+    <div class="Myfade">
         <div class="fixed-action-btn horizontal click-to-toggle">
             <a class="btn-floating btn-large waves-effect waves-light pink accent-4">
                 <i class="material-icons">mail</i>
@@ -231,6 +243,8 @@
 
         </div>
     </div>
+
+    <!-- FOOTER -->
 
     <footer class="page-footer pink darken-3">
         <div class="container">
@@ -271,7 +285,6 @@
     <script>
         AOS.init({
             duration: 1000,
-            disable: 'mobile'
         });
     </script>
 
