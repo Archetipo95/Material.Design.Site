@@ -54,7 +54,7 @@ body {
 }
 
 #Myblue {
-  color: #1e88e5;
+  color: #ffcc00;
   font-weight: bold;
 }
 
@@ -135,4 +135,8 @@ body {
 
 ::-webkit-scrollbar-corner {
     background-color: transparent;
+}
+
+#Mystars {
+  -webkit-animation-duration: 8s;
 }
