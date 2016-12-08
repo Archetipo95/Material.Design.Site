@@ -1,5 +1,5 @@
 # Material.Design.Site
-Site: https://archetipo95.github.io/Material.Design.Site/
+Site: https://archetipo95.github.io/Material_design_site/
 
 Thanks to:
 
